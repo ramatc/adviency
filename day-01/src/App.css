@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+}
+
+html, body {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+ul{
+  padding: 10px 0px;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 1.2rem;
+}
