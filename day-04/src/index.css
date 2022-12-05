@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(https://img.freepik.com/free-photo/nice-christmas-background-white-background-with-copy-space_24972-1722.jpg?w=2000);
+  background-size: cover;
+}
+
+@font-face{
+  font-family: Home-Christmas;
+  src: url('./assets/fonts/Home-Christmas.otf');
+}
+
+@font-face {
+  font-family: Candcu;
+  src: url('./assets/fonts/Candcu__.ttf');
+}
+
+@font-face {
+  font-family: Christmas-Tree;
+  src: url('./assets/fonts/Christmas-Tree.otf');
+}
+
