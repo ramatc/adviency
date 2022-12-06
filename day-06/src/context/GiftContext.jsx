@@ -1,6 +1,10 @@
-import {useState} from 'react';
+import {createContext, useState, useContext} from 'react';
 
-export const useGifts = () => {
+const GiftContext = createContext([]);
+
+export const useGiftContext = () => useContext(GiftContext);
+
+const GiftContextProvider = ( {children} ) => {
 
     const [gifts, setGifts] = useState([{id: 0, name: "Caramelos"}, {id: 1, name: "Medias"}, {id: 2, name: "Vitel Tone"}]);
     const [inputValue, setInputValue] = useState('');   
@@ -28,12 +32,18 @@ export const useGifts = () => {
         confirm('¿Desea borrar la lista de regalos?') ? setGifts([]) : <></>;
     }
 
-    return {
-        gifts,
-        inputValue,
-        handleOnChange,
-        handleOnSubmit,
-        handleOnDelete,
-        handleOnDeleteAll
-    }
+    return (
+        <GiftContext.Provider value={{
+            gifts,
+            inputValue,
+            handleOnChange,
+            handleOnSubmit,
+            handleOnDelete,
+            handleOnDeleteAll
+        }}>
+            {children}
+        </GiftContext.Provider>
+    )
 }
+
+export default GiftContextProvider;
