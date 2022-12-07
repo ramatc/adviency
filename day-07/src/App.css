@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gifts-wrapper{
+  background-color: #252525;
+  border: 3px solid crimson;
+  border-bottom: none;
+  width: 500px;
+  min-height: 450px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: Home-Christmas;
+  background-image: linear-gradient( 135deg, #28C76F 10%, #3BB78F 100%);
+  padding: 14px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  color: #fafafa;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 120px;
+  line-height: 2.1;
+  font-family: Home-Christmas;
+  color: #fafafa;
+  font-weight: lighter;
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+ul li{
+  color: crimson;
+  font-family: Candcu;
+  font-size: 27px;
+  padding: 6px 16px;
+}
+
+ul li svg{
+  color: #fafafa;
+}
+
+.gift-container{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid crimson;
+  border-radius: 6px;
+  margin: 24px;
+}
+
+.gift-container button{
+  background-color: #252525;
+  border: none;   
+  color: crimson;
+  font-size: 20px;
+  margin: 0px 10px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  border: 3px solid crimson;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+form input{
+  border: none;
+  border-bottom-left-radius: 9px;
+  outline: none;
+  padding: 20px;
+  width: 75%;
+}
+
+form button{
+  border: none;
+  font-family: Candcu;
+  outline: none;
+  width: 25%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-delete{
+  background-color: crimson;
+  color: #fafafa;
+}
