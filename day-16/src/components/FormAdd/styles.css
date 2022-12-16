@@ -1,0 +1,80 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.195);
+}
+
+.modal-content {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #fff;
+    padding: 35px 28px;
+    border-radius: 10px;
+    width: 430px;
+}
+
+.btn--add{
+    background-image: linear-gradient( 135deg, #28C76F 10%, #3BB78F 100%);
+}
+
+.btn--close{
+    background-color: crimson;
+}
+
+label{
+    font-size: 20px;
+    color: black;
+    font-family: serif;
+}
+
+.form-input{
+    width: 100%;
+}
+
+.form-input label{
+    display: flex;
+}
+
+.input-id{
+    display: none;
+    visibility: none;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.d-flex label{
+    width: 100%;
+}
+
+.d-flex input{
+    width: 62%;
+}
+
+.form-input .btn-random{
+    font-family: serif;
+    font-size: 16px;
+    margin: 5px 0;
+    width: 35%;
+    border-radius: 4px;
+}
