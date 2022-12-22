@@ -39,7 +39,7 @@ El calendario de Adviency es un challenge creado por <a href="https://twitter.co
 
 - Día 18: La gente agrega muchos regalos y necesita saber el total de lo que gastaría, pongamos el total.
 
-<!-- - Día 19: La gente quiere hacer el mismo regalo pero a diferentes personas o en diferentes cantidades, agreguemos un botón de duplicar que abra el modal precargado. -->
+- Día 19: La gente quiere hacer el mismo regalo pero a diferentes personas o en diferentes cantidades, agreguemos un botón de duplicar que abra el modal precargado.
 
 <!-- - Día 20: Queremos tener una lista de regalos para ir a comprar pero no queremos que tenga los botones o precios, agreguemos un botón de previsualizar que nos abra un modal. -->
 
