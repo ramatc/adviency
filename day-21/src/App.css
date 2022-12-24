@@ -1,0 +1,196 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gifts-wrapper{
+  background-color: #252525;
+  border-bottom: none;
+  width: 500px;
+  min-height: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: Home-Christmas;
+  background-image: linear-gradient( 135deg, #28C76F 10%, #3BB78F 100%);
+  padding: 14px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  color: #fafafa;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 120px;
+  line-height: 2.1;
+  font-family: Home-Christmas;
+  color: #fafafa;
+  font-weight: lighter;
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+}
+
+ul li{
+  color: crimson;
+  font-size: 24px;
+  padding: 6px 16px;
+}
+
+ul li svg{
+  color: #fafafa;
+  transition: all .5s;
+}
+
+ul li svg:hover{
+  color: #28C76F;
+}
+
+.gift-card{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid crimson;
+  border-radius: 6px;
+  margin: 24px;
+  padding: 14px;
+}
+
+.gift-card .btn-gift{
+  background-color: #252525;
+  border: none;   
+  font-size: 20px;
+  margin: 0px 10px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.qty, .price{
+  color: #fafafa;
+  font-size: 21px;
+  margin-right: 7px;
+}
+
+.gift--card{
+  display: flex;
+  align-items: center;
+}
+
+.gift-receiver{
+  color: #fafafaba;
+  font-size: 18px;
+}
+
+.gift-img{
+  width: 75px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 7px;
+  object-fit: cover;
+}
+
+.btn-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-container button{
+  cursor: pointer;
+  font-family: Candcu;
+  font-size: 20px;
+  padding: 14px;
+  border: 1px solid #252525;
+}
+
+.btn-add{
+  width: 34%;
+  border-bottom-left-radius: 10px;
+}
+
+.btn-prev{
+  background-color: #3BB78F;
+  color: #fafafa;
+  width: 32%;
+}
+
+.btn-delete{
+  background-color: crimson;
+  color: #fafafa;
+  width: 34%;
+  border-bottom-right-radius: 10px;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form input{
+  width: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 5px 0px;
+  outline: none;
+  border: 1px solid #778899;
+}
+
+.form-btn{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.form-btn button{
+  border-radius: 4px;
+  width: 47%;
+  padding: 7px;
+  color: #fafafa;
+}
+
+.total-price{
+  color: #fafafa;
+  font-size: 24px;
+  padding-bottom: 24px;
+}
+
+.title-comprar{
+  background-image: none;
+  border-radius: none;
+  color: #252525;
+}
+
+.btn-list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 24px;
+}
+
+.btn-list button{
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 14px;
+  width: 47%;
+  font-size: 20px;
+}
+
+.gift-list > *,
+.gift-list .qty{
+  color: #252525;
+  text-align: left;
+}
+
+.j-left{
+  justify-content: left;
+  border: 1px solid #bdacaf;
+}
