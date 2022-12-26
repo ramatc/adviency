@@ -47,7 +47,7 @@ El calendario de Adviency es un challenge creado por <a href="https://twitter.co
 
 - Día 22: Levantemos el espíritu navideño agregando un sonido navideño de fondo. No tan alto, tiene que estar deshabilitado por defecto y el usuario puede habilitarlo.
 
-<!-- - Día 23: Ya casi es navidad! Agreguemos unos copitos de nieve a nuestra app para darle el último toque navideño ❄ -->
+- Día 23: Ya casi es navidad! Agreguemos unos copitos de nieve a nuestra app para darle el último toque navideño ❄
 ## Pasos para ver el sitio localmente
 1. En nuestra terminal elegimos un lugar para clonar la carpeta y escribimos 'git clone' + el link del repositorio:
 
